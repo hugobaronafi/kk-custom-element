@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Client/package.json",
+      "use": "vercel-sapper"
+    }
+  ]
+}

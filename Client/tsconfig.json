@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2018", "WebWorker"],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["resize-observer-browser"]
+  },
+  "include": ["src/**/*", "src/node_modules/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "static/*"]
+}

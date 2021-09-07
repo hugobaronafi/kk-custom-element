@@ -1,0 +1,29 @@
+{
+  "name": "kentico-kontent-konservatory-client",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "kcea build",
+    "dev": "kcea dev",
+    "export": "kcea export",
+    "start": "kcea start"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.11.3",
+    "@kentico/kontent-delivery": "^10.3.0",
+    "dompurify": "^2.2.7",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "highlight.js": "^10.6.0",
+    "json-2-csv": "^3.10.2",
+    "jwt-decode": "^3.1.2",
+    "kontent-custom-element-app": "^0.3.38",
+    "moment": "^2.29.1",
+    "sort-array": "^4.1.4",
+    "tinycolor2": "^1.4.2",
+    "unsplash-js": "^7.0.8",
+    "wretch": "^1.7.4"
+  },
+  "devDependencies": {}
+}
